@@ -12,7 +12,7 @@ document.querySelector(".pbtm").innerHTML=bubb;
 
 makebubble();
 
-let timer=41;
+let timer=3;
 function runtimer(){
     let intv=setInterval(()=>{
         if(timer>0)
@@ -20,11 +20,18 @@ function runtimer(){
                 timer--;
                 document.getElementById("timeval").innerText=timer;
             }
-        else{
+        else
+        {
             clearInterval(intv);
+            if(value===0)
+            {
+                document.querySelector("#score").textContent=0;
+            }
+            document.querySelector("#hit").textContent="";
             document.querySelector(".pbtm").innerHTML=`<h1>Game Over Sona_Pakhi amar! <br> 
                                                             Till Then ' I Love You ' </h1>`
 
+            document.getElementById("pbottom").style.backgroundColor="yellow";
         }
     },1000)
 
