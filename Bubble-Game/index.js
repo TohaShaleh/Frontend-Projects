@@ -2,7 +2,7 @@ function makebubble(){
     let bubb="";
 for(let i=0;i<144;i++)
     {
-        let ran=Math.floor(Math.random()*10);
+        let ran=Math.floor(Math.random()*21);
         bubb+=`<div class="bubble">${ran}</div>`
     }
 
@@ -12,7 +12,7 @@ document.querySelector(".pbtm").innerHTML=bubb;
 
 makebubble();
 
-let timer=60;
+let timer=41;
 function runtimer(){
     let intv=setInterval(()=>{
         if(timer>0)
@@ -22,6 +22,9 @@ function runtimer(){
             }
         else{
             clearInterval(intv);
+            document.querySelector(".pbtm").innerHTML=`<h1>Game Over Sona_Pakhi amar! <br> 
+                                                            Till Then ' I Love You ' </h1>`
+
         }
     },1000)
 
@@ -32,7 +35,7 @@ runtimer();
 
 var ran=0;
 function makehit(){
-    ran=Math.floor(Math.random()*10);
+    ran=Math.floor(Math.random()*21);
     document.querySelector("#hit").textContent=ran;
 }
 
