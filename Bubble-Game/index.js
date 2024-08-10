@@ -30,3 +30,34 @@ function runtimer(){
 runtimer();
 
 
+var ran=0;
+function makehit(){
+    ran=Math.floor(Math.random()*10);
+    document.querySelector("#hit").textContent=ran;
+}
+
+makehit();
+
+var value=0;
+function score(){
+    value+=10;
+    document.querySelector("#score").textContent=value;
+}
+
+
+
+function right_target(){
+    document.querySelector(".pbtm").addEventListener("click",function(details){
+        var clicked=Number(details.target.textContent);
+        if(ran===clicked)
+            {
+                score();
+                makebubble();
+                makehit();
+            }
+       
+        
+    })
+}
+
+right_target();
