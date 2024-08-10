@@ -12,4 +12,21 @@ document.querySelector(".pbtm").innerHTML=bubb;
 
 makebubble();
 
+let timer=60;
+function runtimer(){
+    let intv=setInterval(()=>{
+        if(timer>0)
+            {
+                timer--;
+                document.getElementById("timeval").innerText=timer;
+            }
+        else{
+            clearInterval(intv);
+        }
+    },1000)
+
+}
+
+runtimer();
+
 
