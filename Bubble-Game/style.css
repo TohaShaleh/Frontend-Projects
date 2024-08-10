@@ -50,7 +50,7 @@ html,body {
     background-color: rgb(217, 242, 234);
     border-radius: 5px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     
 }
 .pbtm{
@@ -60,6 +60,8 @@ html,body {
     display: flex;
     gap:10px;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     /* background-color: black; */
 }
 .bubble{
@@ -67,12 +69,12 @@ html,body {
     height: 50px;
     background-color: #B3F69A;
     border-radius: 50%;
-    color:rgb(5, 108, 199);
+    color:rgb(1, 9, 16);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: large;
-    font-weight: 800;
+    font-weight: 900;
     
 }
 .bubble:hover{
