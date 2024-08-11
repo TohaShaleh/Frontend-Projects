@@ -2,7 +2,7 @@
 function show(){
 
     var temp=0;
-    var rn=Math.floor(Math.random()*3);
+    var rn=Math.floor(Math.random()*21);
     
     
     document.querySelector("#fm").addEventListener("submit",(event)=>{
