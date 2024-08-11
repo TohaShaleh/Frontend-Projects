@@ -3,7 +3,7 @@ function makebubble(){
     let bubb="";
 for(let i=0;i<144;i++)
     {
-        let ran=Math.floor(Math.random()*11);
+        let ran=Math.floor(Math.random()*16);
         bubb+=`<div class="bubble">${ran}</div>`
     }
 
@@ -62,7 +62,7 @@ runtimer();
 
 var ran=0;
 function makehit(){
-    ran=Math.floor(Math.random()*11);
+    ran=Math.floor(Math.random()*16);
     document.querySelector("#hit").textContent=ran;
 }
 
