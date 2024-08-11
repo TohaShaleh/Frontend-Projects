@@ -1,0 +1,34 @@
+/* we have to write at the starting */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}  
+body{
+    background-color: #efef9e;
+}
+section{
+    margin: 150px 600px;
+}
+.hed{
+    width: 400px;
+}
+#nm{
+    width: 200px;
+    height: 50px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+    width: 420px;
+    height: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #ee610a;
+}
