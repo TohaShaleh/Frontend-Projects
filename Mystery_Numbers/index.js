@@ -1,4 +1,6 @@
 
+var name=prompt('Enter Your Name : ');
+
 function show(){
 
     var temp=0;
@@ -12,10 +14,9 @@ function show(){
         if(num==rn)
             {
                 let res=document.querySelector(".result");
-                res.innerHTML=`<div class="cong">Congratulations !! <br> Your Guess Number is Correct <br> <br> Now See your Performance <br></div>` 
+                res.innerHTML=`<div class="cong">Congratulations ${name}! <br> Your Guess Number is Correct <br> <br> Now See Your Performance <br></div>` 
                 document.querySelector(".sb").addEventListener("click",()=>{
     
-                    
                     document.getElementById("bd").style.backgroundColor="#D1F617";
                     res.innerHTML=`You have done it in ${temp} Times !`
     
@@ -23,7 +24,6 @@ function show(){
                     // aa.innerHTML=` <br> <br> <button class="try1"><h3>Try Again</h3></button>`
                     // res.append(aa);
     
-                
     
                     document.querySelector(".sb1").addEventListener("click",()=>{
                         document.getElementById("bd").style.backgroundColor="#efef9e";
@@ -49,6 +49,5 @@ function show(){
     
     }
     
-    
-    show();
+ show();
     
