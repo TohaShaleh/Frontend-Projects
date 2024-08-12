@@ -1,0 +1,84 @@
+/* we have to write at the starting */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}  
+body{
+    background-color: #efef9e;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0px;
+
+}
+.plusminus{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    display: flex;
+    justify-content: center;
+}
+.plus{
+    width: 100px;
+    height: 50px;
+    padding: 13px;
+    background-color: aqua;
+}
+.minus{
+    width: 100px;
+    height:50px;
+    padding: 13px;
+    background-color: aqua;
+}
+.res1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+button{
+    cursor: pointer;
+}
+.res2{
+
+    width: 100px;
+    height: 70px;
+    padding: 22px;
+   
+    background-color: aqua;
+
+}
+.cnt
+{
+    display: flex;
+    justify-content: center;
+}
+.res2:hover{
+    background-color: rgb(230, 23, 23);
+}
+
+/* .plus:hover{
+    background-color: rgb(234, 104, 5);
+}
+.minus:hover{
+    background-color: rgb(234, 104, 5);
+
+} */
+
+.plus:hover,
+.minus:hover {
+    background-color: rgb(234, 104, 5);
+}
