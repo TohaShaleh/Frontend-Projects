@@ -1,4 +1,15 @@
-# Projects using Javascript or React ,Tailwind CSS
-These are the frontend projects that I have built. There are basically 2 games which are Bubble Game and Mystery numbers.Which are build by mainly javascript.
 
-And the rest are different types of websites build by ReactJs and Tailwind CSS.
+# Frontend Projects Built Using JavaScript, React, and Tailwind CSS
+
+## Games
+- **Bubble Game**
+- **Mystery Number**
+- **Count_Tracker** (like Calculator)
+
+These were primarily developed using HTML, CSS, and JavaScript.
+
+## Websites
+- **My Personal Website**
+- **ToDo App**
+
+These were built using React.js and Tailwind CSS.
