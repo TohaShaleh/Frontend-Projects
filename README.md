@@ -1,14 +1,14 @@
 
 # Frontend Projects Built Using JavaScript, React, and Tailwind CSS
 
-## Games
+# Games
 - **Bubble Game**
 - **Mystery Number**
 - **Count_Tracker** (like Calculator)
 
 These were primarily developed using HTML, CSS, and JavaScript.
 
-## Websites
+# Websites
 - **My Personal Website**
 - **ToDo App**
 
